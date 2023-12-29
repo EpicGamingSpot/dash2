@@ -34,7 +34,7 @@ document.addEventListener("alpine:init", () => {
         },
 
         // Light and dark Mode
-        mode: Alpine.$persist("light"),
+        mode: Alpine.$persist("dark"),
         toggleMode(val) {
             if (!val) {
                 val = this.mode || "light"; // light And Dark
